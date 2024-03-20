@@ -1,25 +1,23 @@
 #pragma once
 #include "DefineValue.h"
 
-
-class ZFunction
+class Gallai
 {
 #pragma region ST
 private:
-    ZFunction();
-    ZFunction(ZFunction&);
-    ZFunction(ZFunction&&);
-    static ZFunction* instance;
-    ~ZFunction();
+    Gallai();
+    Gallai(Gallai&);
+    Gallai(Gallai&&);
+    static Gallai* instance;
+    ~Gallai();
 public:
-    static ZFunction* GetInstance();
+    static Gallai* GetInstance();
     static void DestroyInstance();
 #pragma endregion 
 private:
-    void z_func(const std::string& s, std::vector<int>& z);
+    std::vector<int> computeShifts(const std::string& sub);
 
 public:
     std::vector<int> findSubstring(const std::string& main, const std::string& sub);
-
 };
 

@@ -135,18 +135,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BoyerMooreHorspool.cpp" />
     <ClCompile Include="BruteForce.cpp" />
+    <ClCompile Include="Gallai.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="ZFunction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoyerMooreHorspool.h" />
     <ClInclude Include="BruteForce.h" />
     <ClInclude Include="DefineValue.h" />
+    <ClInclude Include="Gallai.h" />
     <ClInclude Include="ZFunction.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="100k.txt" />
+    <Text Include="100m.txt" />
     <Text Include="10k.txt" />
+    <Text Include="10m.txt" />
     <Text Include="1m.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

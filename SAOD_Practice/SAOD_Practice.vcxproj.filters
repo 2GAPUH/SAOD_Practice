@@ -24,6 +24,12 @@
     <ClCompile Include="BruteForce.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Gallai.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BoyerMooreHorspool.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DefineValue.h">
@@ -35,6 +41,12 @@
     <ClInclude Include="BruteForce.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Gallai.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BoyerMooreHorspool.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="1m.txt">
@@ -44,6 +56,12 @@
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="100k.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="10m.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="100m.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>

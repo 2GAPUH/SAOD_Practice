@@ -53,11 +53,3 @@ std::vector<int> BruteForce::findSubstring(const std::string& main, const std::s
 
     return result;
 }
-
-
-
-
-
-
-
-
